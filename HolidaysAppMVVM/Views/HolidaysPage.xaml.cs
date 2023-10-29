@@ -12,6 +12,7 @@ namespace HolidaysAppMVVM.Views
         public HolidaysPage()
         {
             InitializeComponent();
+          
         }
     }
 }
