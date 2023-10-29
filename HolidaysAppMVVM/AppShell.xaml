@@ -6,12 +6,8 @@
     xmlns:views="clr-namespace:HolidaysAppMVVM.Views"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-      <!-- Add this route definition -->
     <ShellContent Route="HolidaysPage" ContentTemplate="{DataTemplate views:HolidaysPage}" />
+    <ShellContent Title="Home" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 
 
 </Shell>
